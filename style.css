@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #2c2929;
+    color: #fff;
+}
+.nav-bar {
+    height: 3.3rem;
+    width: 100%;
+    background: #302e2e;
+}
+.logo {
+    position: absolute;
+    left: 6rem;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-btn {
+    cursor: pointer;
+    height: inherit;
+    width: 43rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5.6rem;
+    padding-right: 7rem;
+}
+.h:hover,
+.a:hover,
+.m:hover,
+.c:hover
+{
+    
+    height:2.2rem ;
+    width: 5rem;
+    background: rgb(210, 127, 143);
+    text-align: center;
+    padding-top: 0.6rem;
+    border-radius: 4px;
+
+}
+.heading1
+ {
+    font-size: 2.7rem;
+    text-align: center;
+}
+.heading1 {
+    margin-top: 3rem;
+}
+#img1 {
+    position: absolute;
+    height: 24rem;
+    width: 37rem;
+    background-color: beige;
+    margin:3rem;
+    top: 10rem;
+    left: 25%;
+    border-radius: 1px;
+}
+.heading2 {
+    font-size: 2.7rem;
+    position: absolute;
+    top: 40rem;
+    left: 33%;
+}
+#btn1 {
+    position: absolute;
+    height: 2.7rem;
+    width: 7rem;
+    font-size: 1rem;
+    top: 44rem;
+    left: 45%;
+    background-color: rgb(210, 127, 143);
+    border: none;
+    color: #0d0d0d;
+    border-radius: 3px;
+
+}
+.second {
+    height: 28rem;
+    width: 100%;
+    margin-top: 51rem;
+    
+}
+#img2 {
+    position: absolute;
+    height: 25rem;
+    width: 45rem;
+    
+    margin: 1rem;
+}
+.heading3 {
+    font-size: 2.7rem;
+    text-align: right;
+}
+.sec {
+    position: absolute;
+    right: 1rem;
+    line-height: 1.6rem;
+    
+   display: flex;
+   width: 50%;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-end; 
+   gap: 2rem;
+   padding-top: 3rem;
+   padding-right: 4.4rem;
+   
+}
+#btn2,
+#btn3
+ {
+    position: relative;
+    height: 2.7rem;
+    width: 7rem;
+    font-size: 1rem;
+    
+    
+    background-color: rgb(210, 127, 143);
+    border: none;
+    color: #0d0d0d;
+    border-radius: 3px;
+}
+#btn2 {
+    right: 18rem;
+}
+.third {
+    height: 28rem;
+    width: 100%;
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.heading4 {
+    font-size: 2.7rem;
+    line-height: 3.3rem;
+
+}
+#c {
+
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 2.3rem;
+    gap: 2rem;
+    
+    
+    
+    
+    
+}
+#img3 {
+    
+    height: 25rem;
+    width: 39rem;
+    margin-right: 4rem;
+    /* top: 104rem;
+    right: 3rem; */
+
+}
+.four {
+    height: 28rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.heading5 {
+    font-size: 2.7rem;
+    padding-left: 3rem;
+}
+.box {
+    height: 20rem;
+   width: 60rem;
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+    margin-left: 10rem;
+    align-items: center;
+   
+    
+
+}
+#cup-2,
+#cup-3,
+#cup-1 {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-right: 4rem;
+
+}
+.one-box ,
+.two-box,
+.three-box {
+    border: 1px solid goldenrod;
+    height: 20rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dash {
+    font-size: 2.6rem;
+    margin-left: 19rem;
+}
+
+.info {
+    height: 14rem;
+    width: 70rem;
+    
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    gap: 4.7rem;
+    margin-bottom: 4rem;
+    
+    
+
+}
+.about, 
+.contact,
+.open {
+ text-align: center;
+
+}
+#h1-about,
+#h1-contact,
+#h1-open {
+    margin: 2rem;
+}
+span {
+    color: goldenrod;
+}
+.border {
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 2rem;
+}
+footer {
+    text-align: center;
+    /* border-top: 1px solid #fff; */
+}
